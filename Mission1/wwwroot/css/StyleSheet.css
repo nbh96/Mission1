@@ -1,0 +1,46 @@
+﻿body {
+    text-align: center;
+    background-image: url('../img/park.jpg');
+    background-size: cover;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+html {
+    display: table-cell;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+.header {
+    text-align: center;
+    background-color: dimgray;
+    color: white;
+    font-size: 30px;
+    height: 60px;
+}
+
+.newBod {
+    background-color: lightgray;
+/*    padding-left: 20px;*/
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px;
+}
