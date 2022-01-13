@@ -1,4 +1,5 @@
-﻿$("#btnSend").click(function () {
+﻿//Get inputs from index.html and assign them to variables
+$("#btnSend").click(function () {
     var iAssignment = ($("#assignment").val() * .55)
     var iProjects = $("#project").val() * .05
     var iQuiz = $("#quiz").val() * .1
@@ -9,6 +10,7 @@
 
     var sGrade = ''
 
+//Determine final number to get grade number
     if (iTotal >= 94) {
         sGrade = 'A'
     }
@@ -46,6 +48,6 @@
         sGrade = 'E'
     }
 
-    //alert(iTotal)
+    //Output the final grade in an alert
     alert("Your final percentage is: " + iTotal + " and your final grade is: " + sGrade)
 })
